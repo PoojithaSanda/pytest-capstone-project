@@ -1,0 +1,2 @@
+[32mINFO    [0m root:conftest.py:144 Browser launched
+[32mINFO    [0m root:conftest.py:148 Browser closed
