@@ -1,0 +1,6 @@
+2026-05-07 13:34:17,758 [INFO] Browser launched
+2026-05-07 13:36:54,550 [ERROR] Test Failed -> test_login_success
+2026-05-07 13:36:54,696 [INFO] Screenshot saved -> reports\screenshots\test_login_success_gw8_20260507_133654.png
+2026-05-07 13:36:54,701 [INFO] Browser closed
+2026-05-07 13:41:02,133 [INFO] Browser launched
+2026-05-07 13:41:20,976 [INFO] Browser closed

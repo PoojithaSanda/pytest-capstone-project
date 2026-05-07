@@ -1,0 +1,6 @@
+2026-05-07 13:34:17,770 [INFO] Browser launched
+2026-05-07 13:34:43,053 [ERROR] Test Failed -> test_empty_note_submission
+2026-05-07 13:34:43,207 [INFO] Screenshot saved -> reports\screenshots\test_empty_note_submission_gw3_20260507_133443.png
+2026-05-07 13:34:43,214 [INFO] Browser closed
+2026-05-07 13:41:02,119 [INFO] Browser launched
+2026-05-07 13:41:28,448 [INFO] Browser closed

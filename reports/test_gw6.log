@@ -1,0 +1,7 @@
+2026-05-07 13:34:17,607 [INFO] Browser launched
+2026-05-07 13:36:18,654 [ERROR] Test Failed -> test_ui_to_api
+2026-05-07 13:38:18,694 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=50077): Read timed out. (read timeout=120)")': /session/ca79504f8b95b0562cf79228fdc9851d/screenshot
+2026-05-07 13:39:18,035 [INFO] Screenshot saved -> reports\screenshots\test_ui_to_api_gw6_20260507_133618.png
+2026-05-07 13:39:18,044 [INFO] Browser closed
+2026-05-07 13:41:02,126 [INFO] Browser launched
+2026-05-07 13:41:32,772 [INFO] Browser closed

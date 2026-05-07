@@ -1,0 +1,6 @@
+2026-05-07 13:34:17,512 [INFO] Browser launched
+2026-05-07 13:36:55,855 [ERROR] Test Failed -> test_invalid_login
+2026-05-07 13:36:55,936 [INFO] Screenshot saved -> reports\screenshots\test_invalid_login_gw4_20260507_133655.png
+2026-05-07 13:36:55,942 [INFO] Browser closed
+2026-05-07 13:41:01,962 [INFO] Browser launched
+2026-05-07 13:41:25,194 [INFO] Browser closed

@@ -1,0 +1,1 @@
+{'success': True, 'status': 200, 'message': 'Login successful', 'data': {'id': '69f9f50181124e02985a747e', 'name': 'Poojitha', 'email': 'sandapoojitha7396@gmail.com', 'token': 'a835bdb176a44ede9bb0cadf00c14e5737130c7d0339456caabd573e121fee4b'}}
