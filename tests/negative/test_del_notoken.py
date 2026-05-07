@@ -6,8 +6,8 @@ def test_delete_note_without_token():
     # fake note id
     note_id = "1234567890"
 
-    # ---------------- DELETE WITHOUT AUTH ----------------
+    # DELETE WITHOUT AUTH 
     response = requests.delete(f"{base_url}/notes/{note_id}")
 
-    # ---------------- VERIFY FAILURE ----------------
+    # VERIFY FAILURE 
     assert response.status_code in [401, 403]

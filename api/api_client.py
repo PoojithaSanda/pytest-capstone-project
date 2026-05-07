@@ -1,13 +1,9 @@
-
 import requests
-
 class APIClient:
 
     def __init__(self, base_url):
         self.base_url = base_url
         self.token = None
-    
-
 
     def login(self, email, password):
         res = requests.post(
@@ -16,9 +12,7 @@ class APIClient:
         )
 
         print(res.json())  # DEBUG
-
         assert res.status_code == 200, "Login failed"
-
         self.token = res.json()["data"]["token"]
 
     def get_notes(self):

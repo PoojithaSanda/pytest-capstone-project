@@ -1,16 +1,3 @@
-# from selenium.webdriver.common.by import By
-# from pages.base_page import BasePage
-
-# class LoginPage(BasePage):
-
-#     EMAIL = (By.XPATH, "//input[@type='email']")
-#     PASSWORD = (By.XPATH, "//input[@type='password']")
-#     LOGIN_BTN = (By.XPATH, "//*[@id="root"]/div/div/div/div[1]/div[1]/a[1]")
-
-#     def login(self, email, password):
-#         self.send_keys(self.EMAIL, email)
-#         self.send_keys(self.PASSWORD, password)
-#         self.click(self.LOGIN_BTN)
 from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
 

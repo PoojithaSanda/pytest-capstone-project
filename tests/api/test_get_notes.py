@@ -3,10 +3,10 @@ def test_get_notes_api():
 
     api = APIClient("https://practice.expandtesting.com/notes/api")
 
-    # ---------------- LOGIN ----------------
+    #LOGIN 
     api.login("sandapoojitha7396@gmail.com", "Poojitha@2k4")
 
-    # ---------------- GET NOTES ----------------
+    #  GET NOTES
     response = api.get_notes()
 
     assert response.status_code == 200

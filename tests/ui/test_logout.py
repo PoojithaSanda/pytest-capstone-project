@@ -18,7 +18,7 @@ def scroll_to_element(driver, element):
     """, element)
 
 
-def test_delete_note_ui(driver):
+def test_logout_functionality(driver):
 
     from pages.login_page import LoginPage
 
@@ -36,79 +36,50 @@ def test_delete_note_ui(driver):
 
     remove_ads(driver)
 
-    # OPEN FIRST NOTE
-    first_note = wait.until(
+    # PROFILE BUTTON
+    profile_btn = wait.until(
         EC.element_to_be_clickable(
             (
                 By.XPATH,
-                "(//div[contains(@class,'card')])[1]"
+                "//button[contains(@class,'btn')]"
             )
         )
     )
 
-    scroll_to_element(driver, first_note)
+    scroll_to_element(driver, profile_btn)
 
     driver.execute_script(
         "arguments[0].click();",
-        first_note
+        profile_btn
     )
 
     remove_ads(driver)
 
-    # FIRST DELETE BUTTON
-    delete_btn = wait.until(
+    # LOGOUT BUTTON
+    logout_btn = wait.until(
         EC.element_to_be_clickable(
             (
                 By.XPATH,
-                "//button[text()='Delete']"
+                "//*[contains(text(),'Logout')]"
             )
         )
     )
 
-    scroll_to_element(driver, delete_btn)
+    scroll_to_element(driver, logout_btn)
 
     driver.execute_script(
         "arguments[0].click();",
-        delete_btn
+        logout_btn
     )
 
-    remove_ads(driver)
-
-    # WAIT FOR DELETE MODAL
-    wait.until(
+    # VERIFY LOGIN PAGE
+    login_text = wait.until(
         EC.visibility_of_element_located(
             (
-                By.CLASS_NAME,
-                "modal-content"
+                By.XPATH,
+                "//*[contains(text(),'Login')]"
             )
         )
     )
 
-    # CONFIRM DELETE BUTTON IN POPUP
-    confirm_delete_btn = wait.until(
-        EC.element_to_be_clickable(
-            (
-                By.CSS_SELECTOR,
-                ".modal-content button.btn-danger"
-            )
-        )
-    )
-
-    scroll_to_element(driver, confirm_delete_btn)
-
-    driver.execute_script(
-        "arguments[0].click();",
-        confirm_delete_btn
-    )
-
-    # WAIT UNTIL MODAL DISAPPEARS
-    wait.until(
-        EC.invisibility_of_element_located(
-            (
-                By.CLASS_NAME,
-                "modal-content"
-            )
-        )
-    )
-
-    print("Note deleted successfully")
+    assert login_text.is_displayed()

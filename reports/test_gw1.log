@@ -1,1 +1,13 @@
 2026-05-07 13:34:27,824 [ERROR] Test Failed -> test_get_notes_api
+2026-05-07 13:56:15,613 [INFO] Browser launched
+2026-05-07 13:56:55,646 [INFO] Browser closed
+2026-05-07 13:56:58,899 [INFO] Browser launched
+2026-05-07 13:57:43,738 [ERROR] Test Failed -> test_ui_to_api
+2026-05-07 13:57:43,900 [INFO] Screenshot saved -> reports\screenshots\test_ui_to_api_gw1_20260507_135743.png
+2026-05-07 13:57:43,904 [INFO] Browser closed
+2026-05-07 13:58:52,073 [INFO] Browser launched
+2026-05-07 14:00:13,627 [ERROR] Test Failed -> test_empty_note_submission
+2026-05-07 14:00:13,816 [INFO] Screenshot saved -> reports\screenshots\test_empty_note_submission_gw1_20260507_140013.png
+2026-05-07 14:00:13,816 [INFO] Browser closed
+2026-05-07 14:00:17,050 [INFO] Browser launched
+2026-05-07 14:01:25,018 [INFO] Browser closed

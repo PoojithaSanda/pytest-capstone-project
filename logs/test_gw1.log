@@ -1,0 +1,100 @@
+2026-05-07 22:13:18,949 [INFO] Running on Local ChromeDriver
+2026-05-07 22:13:18,964 [INFO] Browser launched
+2026-05-07 22:13:18,982 [INFO] Ads iframe removed
+2026-05-07 22:14:21,516 [ERROR] Test Failed -> test_empty_note_submission
+2026-05-07 22:14:21,528 [INFO] Ads iframe removed
+2026-05-07 22:14:21,846 [INFO] Screenshot saved -> reports\screenshots\test_empty_note_submission_gw1_20260507_221421.png
+2026-05-07 22:14:21,849 [INFO] Browser closed
+2026-05-07 22:14:25,457 [INFO] Running on Local ChromeDriver
+2026-05-07 22:14:25,468 [INFO] Browser launched
+2026-05-07 22:14:25,481 [INFO] Ads iframe removed
+2026-05-07 22:15:51,723 [INFO] Browser closed
+2026-05-07 22:15:55,264 [INFO] Running on Local ChromeDriver
+2026-05-07 22:15:55,274 [INFO] Browser launched
+2026-05-07 22:15:55,285 [INFO] Ads iframe removed
+2026-05-07 22:16:47,131 [ERROR] Test Failed -> test_create_note_ui
+2026-05-07 22:16:47,232 [INFO] Ads iframe removed
+2026-05-07 22:16:47,552 [INFO] Screenshot saved -> reports\screenshots\test_create_note_ui_gw1_20260507_221647.png
+2026-05-07 22:16:47,556 [INFO] Browser closed
+2026-05-07 22:16:51,051 [INFO] Running on Local ChromeDriver
+2026-05-07 22:16:51,062 [INFO] Browser launched
+2026-05-07 22:16:51,072 [INFO] Ads iframe removed
+2026-05-07 22:18:51,612 [INFO] Browser closed
+2026-05-07 22:20:13,078 [INFO] Running on Local ChromeDriver
+2026-05-07 22:20:13,088 [INFO] Browser launched
+2026-05-07 22:20:13,102 [INFO] Ads iframe removed
+2026-05-07 22:21:27,314 [INFO] Browser closed
+2026-05-07 22:21:30,881 [INFO] Running on Local ChromeDriver
+2026-05-07 22:21:30,891 [INFO] Browser launched
+2026-05-07 22:21:30,899 [INFO] Ads iframe removed
+2026-05-07 22:22:27,165 [INFO] Browser closed
+2026-05-07 22:22:30,745 [INFO] Running on Local ChromeDriver
+2026-05-07 22:22:30,754 [INFO] Browser launched
+2026-05-07 22:22:30,762 [INFO] Ads iframe removed
+2026-05-07 22:24:04,628 [ERROR] Test Failed -> test_logout_functionality
+2026-05-07 22:24:04,676 [INFO] Ads iframe removed
+2026-05-07 22:24:04,899 [INFO] Screenshot saved -> reports\screenshots\test_logout_functionality_gw1_20260507_222404.png
+2026-05-07 22:24:04,902 [INFO] Browser closed
+2026-05-07 22:26:33,138 [INFO] Running on Local ChromeDriver
+2026-05-07 22:26:33,225 [INFO] Browser launched
+2026-05-07 22:26:33,266 [INFO] Ads iframe removed
+2026-05-07 22:26:48,469 [INFO] Browser closed
+2026-05-07 22:27:00,638 [INFO] Running on Local ChromeDriver
+2026-05-07 22:27:00,662 [INFO] Browser launched
+2026-05-07 22:27:00,675 [INFO] Ads iframe removed
+2026-05-07 22:27:50,309 [INFO] Browser closed
+2026-05-07 22:27:54,112 [INFO] Running on Local ChromeDriver
+2026-05-07 22:27:54,146 [INFO] Browser launched
+2026-05-07 22:27:54,164 [INFO] Ads iframe removed
+2026-05-07 22:28:34,008 [INFO] Browser closed
+2026-05-07 22:29:43,399 [INFO] Running on Local ChromeDriver
+2026-05-07 22:29:43,408 [INFO] Browser launched
+2026-05-07 22:29:43,422 [INFO] Ads iframe removed
+2026-05-07 22:30:05,568 [INFO] Browser closed
+2026-05-07 22:30:09,111 [INFO] Running on Local ChromeDriver
+2026-05-07 22:30:09,129 [INFO] Browser launched
+2026-05-07 22:30:09,155 [INFO] Ads iframe removed
+2026-05-07 22:30:25,302 [INFO] Browser closed
+2026-05-07 22:30:29,309 [INFO] Running on Local ChromeDriver
+2026-05-07 22:30:29,324 [INFO] Browser launched
+2026-05-07 22:30:29,338 [INFO] Ads iframe removed
+2026-05-07 22:31:22,867 [INFO] Browser closed
+2026-05-07 22:31:26,584 [INFO] Running on Local ChromeDriver
+2026-05-07 22:31:26,596 [INFO] Browser launched
+2026-05-07 22:31:26,613 [INFO] Ads iframe removed
+2026-05-07 22:32:10,332 [INFO] Browser closed
+2026-05-07 22:32:54,468 [INFO] Running on Local ChromeDriver
+2026-05-07 22:32:54,485 [INFO] Browser launched
+2026-05-07 22:32:54,504 [INFO] Ads iframe removed
+2026-05-07 22:33:49,959 [ERROR] Test Failed -> test_empty_note_submission
+2026-05-07 22:33:49,967 [INFO] Ads iframe removed
+2026-05-07 22:33:50,380 [INFO] Screenshot saved -> reports\screenshots\test_empty_note_submission_gw1_20260507_223350.png
+2026-05-07 22:33:50,387 [INFO] Browser closed
+2026-05-07 22:33:54,582 [INFO] Running on Local ChromeDriver
+2026-05-07 22:33:54,601 [INFO] Browser launched
+2026-05-07 22:33:54,622 [INFO] Ads iframe removed
+2026-05-07 22:34:51,772 [INFO] Browser closed
+2026-05-07 22:34:56,922 [INFO] Running on Local ChromeDriver
+2026-05-07 22:34:56,956 [INFO] Browser launched
+2026-05-07 22:34:56,981 [INFO] Ads iframe removed
+2026-05-07 22:35:43,547 [INFO] Browser closed
+2026-05-07 22:35:47,390 [INFO] Running on Local ChromeDriver
+2026-05-07 22:35:47,415 [INFO] Browser launched
+2026-05-07 22:35:47,458 [INFO] Ads iframe removed
+2026-05-07 22:36:21,601 [INFO] Browser closed
+2026-05-07 22:37:20,761 [INFO] Running on Local ChromeDriver
+2026-05-07 22:37:20,776 [INFO] Browser launched
+2026-05-07 22:37:20,789 [INFO] Ads iframe removed
+2026-05-07 22:37:34,971 [INFO] Browser closed
+2026-05-07 22:37:39,067 [INFO] Running on Local ChromeDriver
+2026-05-07 22:37:39,080 [INFO] Browser launched
+2026-05-07 22:37:39,096 [INFO] Ads iframe removed
+2026-05-07 22:38:24,614 [INFO] Browser closed
+2026-05-07 22:38:29,004 [INFO] Running on Local ChromeDriver
+2026-05-07 22:38:29,024 [INFO] Browser launched
+2026-05-07 22:38:29,046 [INFO] Ads iframe removed
+2026-05-07 22:39:53,758 [INFO] Browser closed
+2026-05-07 22:39:57,079 [INFO] Running on Local ChromeDriver
+2026-05-07 22:39:57,091 [INFO] Browser launched
+2026-05-07 22:39:57,104 [INFO] Ads iframe removed
+2026-05-07 22:40:23,338 [INFO] Browser closed

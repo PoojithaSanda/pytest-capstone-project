@@ -3,7 +3,11 @@ def test_create_note_ui(driver):
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
-
+    def remove_ads(driver):
+        driver.execute_script("""
+            document.querySelectorAll('iframe').forEach(el => el.remove());
+        """)
+        
     driver.get("https://practice.expandtesting.com/notes/app")
 
     login = LoginPage(driver)
@@ -34,12 +38,26 @@ def test_create_note_ui(driver):
     desc_input.clear()
     desc_input.send_keys(desc)
 
-    # ---------------- SAVE NOTE ----------------
-    save_btn = wait.until(
-        EC.element_to_be_clickable((By.XPATH, "//*[@id='root']/div/div/div[2]/div/div[3]/div/div/form/div[2]/button[1]"))
-        )
-    save_btn.click()
+    # REMOVE ADS BEFORE CLICK
+    remove_ads(driver)
 
+    save_btn = wait.until(
+        EC.presence_of_element_located(
+            (By.XPATH, "//button[@type='submit']")
+        )
+    )
+
+    # SCROLL TO BUTTON
+    driver.execute_script(
+        "arguments[0].scrollIntoView({block:'center'});",
+        save_btn
+    )
+
+    # REMOVE ADS AGAIN
+    remove_ads(driver)
+
+    # JS CLICK
+    driver.execute_script("arguments[0].click();", save_btn)
     # ---------------- VERIFY NOTE ----------------
     assert wait.until(
         EC.presence_of_element_located(

@@ -9,10 +9,10 @@ def test_invalid_login(driver):
     login = LoginPage(driver)
     wait = WebDriverWait(driver, 10)
 
-    # ---------------- INVALID LOGIN ----------------
+    #  INVALID LOGIN 
     login.login("wronguser@test.com", "wrongpass")
 
-    # ---------------- VERIFY ERROR MESSAGE ----------------
+    #  VERIFY ERROR MESSAGE 
     error_msg = wait.until(
         EC.presence_of_element_located(
             (By.XPATH, "//*[contains(text(),'Incorrect') or contains(text(),'Invalid')]")

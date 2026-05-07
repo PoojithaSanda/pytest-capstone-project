@@ -1,1 +1,5 @@
 2026-05-07 13:34:27,824 [ERROR] Test Failed -> test_delete_note_without_token
+2026-05-07 13:56:12,091 [INFO] Browser launched
+2026-05-07 13:56:51,925 [INFO] Browser closed
+2026-05-07 13:58:49,022 [INFO] Browser launched
+2026-05-07 14:00:03,759 [INFO] Browser closed

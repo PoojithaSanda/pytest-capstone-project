@@ -3,17 +3,17 @@ def test_get_notes_when_empty():
 
     api = APIClient("https://practice.expandtesting.com/notes/api")
 
-    # ---------------- LOGIN ----------------
+    #  LOGIN 
     api.login("sandapoojitha7396@gmail.com", "Poojitha@2k4")
 
-    # ---------------- GET NOTES ----------------
+    #  GET NOTES 
     response = api.get_notes()
 
     assert response.status_code == 200
 
     data = response.json().get("data", [])
 
-    # ---------------- VALIDATION ----------------
+    #  VALIDATION 
     # Either empty OR controlled structure
     assert isinstance(data, list)
 

@@ -6,7 +6,7 @@ import time
 
 class NotesPage(BasePage):
 
-    # 🔥 FIXED LOCATORS (VERY IMPORTANT)
+    # FIXED LOCATORS (VERY IMPORTANT)
     ADD_BTN = (By.XPATH, "//button[contains(.,'Add Note')]")
     TITLE = (By.XPATH, "//input[@placeholder='Title']")
     DESC = (By.XPATH, "//textarea[@placeholder='Description']")
@@ -19,7 +19,7 @@ class NotesPage(BasePage):
             EC.visibility_of_element_located(self.ADD_BTN)
         )
 
-        # 🔥 Force click (ensures modal opens)
+        #  Force click (ensures modal opens)
         self.driver.execute_script(
             "arguments[0].click();",
             self.wait.until(EC.element_to_be_clickable(self.ADD_BTN))
@@ -27,7 +27,7 @@ class NotesPage(BasePage):
 
         print("✅ Add button clicked")
 
-        # 🔥 Wait until modal is actually visible
+        #  Wait until modal is actually visible
         self.wait.until(
             EC.visibility_of_element_located(self.TITLE)
         )
@@ -42,3 +42,8 @@ class NotesPage(BasePage):
         self.click(self.SAVE)
 
         print("✅ Note saved")
+
+#increased time
+    def click_submit(self):
+        time.sleep(3)
+        self.driver.find_element(*self.SUBMIT_BUTTON).click()
