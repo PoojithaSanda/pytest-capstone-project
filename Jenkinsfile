@@ -5,12 +5,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git branch: 'main',
-                url: 'YOUR_GITHUB_REPO_URL'
-            }
-        }
 
         stage('Setup Environment') {
             steps {
