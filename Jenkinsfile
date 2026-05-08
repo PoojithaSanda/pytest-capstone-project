@@ -23,7 +23,7 @@ pipeline {
         stage('Checkout Latest Code') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git'
+                url: 'https://github.com/PoojithaSanda/pytest-capstone-project.git'
             }
         }
 
