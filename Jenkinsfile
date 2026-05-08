@@ -46,7 +46,7 @@ pipeline {
                 bat '''
                 call venv\\Scripts\\activate
 
-                pytest tests -n -2 -v --cache-clear ^
+                pytest tests -n 2 -v --cache-clear ^
                 --html=reports/report.html --self-contained-html ^
                 --alluredir=reports/allure-results
                 '''
