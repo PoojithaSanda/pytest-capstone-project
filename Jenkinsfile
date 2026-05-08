@@ -32,7 +32,7 @@ pipeline {
                 bat '''
                 python -m venv venv
 
-                call venv\\Scripts\\activate
+                call %WORKSPACE%\\venv\\Scripts\\activate
 
                 python -m pip install --upgrade pip
 
@@ -44,9 +44,9 @@ pipeline {
         stage('Run UI + API Tests') {
             steps {
                 bat '''
-                call venv\\Scripts\\activate
+                call %WORKSPACE%\\venv\\Scripts\\activate
 
-                pytest tests -n 2 -v --cache-clear ^
+                pytest tests -n  -v --cache-clear ^
                 --html=reports/report.html --self-contained-html ^
                 --alluredir=reports/allure-results
                 '''

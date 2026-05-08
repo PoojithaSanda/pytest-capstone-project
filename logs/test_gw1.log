@@ -98,3 +98,34 @@
 2026-05-07 22:39:57,091 [INFO] Browser launched
 2026-05-07 22:39:57,104 [INFO] Ads iframe removed
 2026-05-07 22:40:23,338 [INFO] Browser closed
+2026-05-08 08:01:15,689 [INFO] Running on Local ChromeDriver
+2026-05-08 08:01:17,661 [INFO] Browser launched
+2026-05-08 08:01:17,708 [INFO] Ads iframe removed
+2026-05-08 08:02:35,764 [INFO] Browser closed
+2026-05-08 08:02:39,359 [INFO] Running on Local ChromeDriver
+2026-05-08 08:02:39,368 [INFO] Browser launched
+2026-05-08 08:02:39,381 [INFO] Ads iframe removed
+2026-05-08 08:03:22,861 [ERROR] Test Failed -> test_create_note_ui
+2026-05-08 08:03:22,975 [INFO] Ads iframe removed
+2026-05-08 08:03:23,294 [INFO] Screenshot saved -> reports\screenshots\test_create_note_ui_gw1_20260508_080323.png
+2026-05-08 08:03:23,298 [INFO] Browser closed
+2026-05-08 08:03:26,585 [INFO] Running on Local ChromeDriver
+2026-05-08 08:03:26,596 [INFO] Browser launched
+2026-05-08 08:03:26,612 [INFO] Ads iframe removed
+2026-05-08 08:03:39,266 [INFO] Browser closed
+2026-05-08 08:06:08,501 [INFO] Running on Local ChromeDriver
+2026-05-08 08:06:08,514 [INFO] Browser launched
+2026-05-08 08:06:08,528 [INFO] Ads iframe removed
+2026-05-08 08:06:55,208 [INFO] Browser closed
+2026-05-08 08:07:02,989 [INFO] Running on Local ChromeDriver
+2026-05-08 08:07:03,002 [INFO] Browser launched
+2026-05-08 08:07:03,019 [INFO] Ads iframe removed
+2026-05-08 08:07:19,842 [INFO] Browser closed
+2026-05-08 08:07:23,247 [INFO] Running on Local ChromeDriver
+2026-05-08 08:07:23,255 [INFO] Browser launched
+2026-05-08 08:07:23,268 [INFO] Ads iframe removed
+2026-05-08 08:07:54,307 [INFO] Browser closed
+2026-05-08 08:07:57,562 [INFO] Running on Local ChromeDriver
+2026-05-08 08:07:57,568 [INFO] Browser launched
+2026-05-08 08:07:57,580 [INFO] Ads iframe removed
+2026-05-08 08:08:30,553 [INFO] Browser closed
