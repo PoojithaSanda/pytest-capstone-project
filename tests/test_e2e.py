@@ -24,10 +24,14 @@ def test_ui_to_api(driver):
     
     # STEP 2: OPEN ADD NOTE
     
+    remove_ads(driver)
+
     add_btn = wait.until(
         EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'Add')]"))
     )
-    add_btn.click()
+
+    driver.execute_script("arguments[0].scrollIntoView(true);", add_btn)
+    driver.execute_script("arguments[0].click();", add_btn)
 
     
     # STEP 3: ENTER TITLE
